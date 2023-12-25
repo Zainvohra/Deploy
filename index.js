@@ -7,7 +7,7 @@ const connectDB = require('./db/connect')
 
 const products_routes = require('./routes/products')
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 
 app.get('/', (req, res) => {
